@@ -1,0 +1,22 @@
+.dropdown .dropdown-btn{
+    height: 25px;
+}
+.dropdown .dropdown-content{
+    right: 10%;
+    position: absolute;
+    top: 115%;
+    padding: 10px ;
+    background-color: #fff;box-shadow: 3px 3px 10px 6px rgba( 0,0,0,0.06);
+    font-size: 20px;
+    color: #333;
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    width: 250%;
+}
+.dropdown .dropdown-content .dropdown-item{
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.dropdown .dropdown-content .dropdown-item:hover{
+    background:#f4f4f4
+}

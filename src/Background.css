@@ -1,0 +1,23 @@
+.row> .MuiSvgIcon-root{
+    font-size: 47px;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+    user-select: none;
+    cursor: default;
+    width: 1em;
+   
+   }
+   
+.MuiSvgIcon-root:hover{
+    color:#5192e7;
+    transition: 0s;
+    text-shadow: 0 0 120px #5192e7;
+
+}
+
+#background{
+    display: flex;
+    position: fixed;
+    margin-left: 15px;
+    margin-top: 10px;
+}

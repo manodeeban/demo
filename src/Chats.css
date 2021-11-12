@@ -1,0 +1,94 @@
+.chat{
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+}
+.chat_header{
+    padding-left: 15px;
+    display: flex;
+    height: 102px;
+    align-items: center;
+    border-bottom: 1px solid lightgray
+
+}
+#chat_headerInfo {
+    flex: 1;
+    padding: 5px;
+}
+#chat_headerInfo > h3{
+    margin-bottom: 3px;
+    padding-left: 10px;
+    font-weight: 500;
+   
+}
+#chat_headerInfo > p{
+    color: gray;
+    padding-left: 10px;
+}
+#chat_headerRight {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+    margin-right: 15px;
+}
+
+#chat_body {
+    flex: 1;
+    background-image: url(https://user-images.githubusercontent.com/85731867/121652133-f64d8200-cab8-11eb-9edd-ffddd6726ade.jpg);
+    background-repeat: repeat;
+    background-position:center;
+    padding: 30px;
+    overflow: auto;
+}
+
+.chat_message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    background-color: honeydew ;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+.chat_name{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+.chat_timestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+.chat_reciever{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+.chat_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+.chat_footer >form {
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+.chat_footer >form>input {
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    width: 97%;
+    border: none;
+}
+.chat_footer>form>button{
+    display: none;
+}
+.chat_footer> .MuiSvgIcon-root{
+    padding: 10px;
+    color: gray;
+}
