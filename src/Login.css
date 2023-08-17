@@ -23,5 +23,8 @@
     text-transform: inherit !important;
     background-color: #5192e7 !important;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
 }
 

@@ -47,9 +47,16 @@
     flex: 1;
     background-color: white;
     overflow: auto;
+ 
 }
 
-
+::-webkit-scrollbar{
+    width: 50px;
+}
+::-webkit-scrollbar-thumb{
+    width: 20px;
+    height: 20px;
+}
 .Sidebar_search{
     display: flex;
     align-items: center;
